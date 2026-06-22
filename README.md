@@ -61,7 +61,7 @@ Before deploying this project, ensure you have:
 - IAM permissions for Lambda and S3
 - Python 3.x
 # Project Structure
-lambda-project/
-├── lambda_function.py
-├── requirements.txt
-└── README.md
+- lambda-project/
+    - lambda_function.py
+    - requirements.txt
+    - README.md
