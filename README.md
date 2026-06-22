@@ -36,3 +36,32 @@ Lambda functions are triggered by events from various AWS services such as:
 # Example
 When a user uploads a file to an Amazon S3 bucket, AWS Lambda can automatically trigger a function to validate,
 process, or store metadata about the uploaded file without requiring a dedicated server
+# AWS Lambda S3 File Processing Project:
+- Project overview
+- Features
+- Architecture
+- Prerequisites
+- Deployment steps
+- Usage
+- Example event
+- Author information
+## Overview:
+This project demonstrates how to use AWS Lambda to automatically process files uploaded to an Amazon S3 bucket.
+Whenever a file is uploaded, the Lambda function is triggered and performs the required operations.
+# Architecture
+S3 Bucket → AWS Lambda → CloudWatch Logs
+# Features
+- Serverless architecture
+- Automatic execution on file upload
+- Integration with Amazon S3
+# Prerequisites
+Before deploying this project, ensure you have:
+- AWS Account
+- AWS CLI configured
+- IAM permissions for Lambda and S3
+- Python 3.x
+# Project Structure
+lambda-project/
+├── lambda_function.py
+├── requirements.txt
+└── README.md
